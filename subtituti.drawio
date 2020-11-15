@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-15T21:40:40.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="nvzqk_QbpNm2DjCrDJjq" version="13.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-15T21:48:21.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="GpC9Wtg84yR_W8ALy0Bu" version="13.9.8" type="github">
   <diagram id="gMftlSXkGSuHVQYhd6Ju" name="Page-1">
-    <mxGraphModel dx="1385" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2770" dy="2439" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,13 +390,13 @@
           <mxGeometry x="331.5" y="1000" width="105" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BcTTe2isr_v5FpjEPVmH-42" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-41" target="BcTTe2isr_v5FpjEPVmH-44">
-          <mxGeometry x="-1" y="-108" relative="1" as="geometry">
+          <mxGeometry x="-1" y="-98" relative="1" as="geometry">
             <mxPoint x="220" y="1040" as="targetPoint" />
             <Array as="points">
               <mxPoint x="258" y="1025" />
               <mxPoint x="258" y="1040" />
             </Array>
-            <mxPoint x="108" y="108" as="offset" />
+            <mxPoint x="98" y="98" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BcTTe2isr_v5FpjEPVmH-43" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-41">
@@ -432,13 +432,10 @@
         <mxCell id="BcTTe2isr_v5FpjEPVmH-48" value="toupper(x)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="150" y="1120" width="76" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BcTTe2isr_v5FpjEPVmH-49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="BcTTe2isr_v5FpjEPVmH-48" parent="1">
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-49" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.16;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="BcTTe2isr_v5FpjEPVmH-48" parent="1" target="BcTTe2isr_v5FpjEPVmH-59">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="188" y="1180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="188" y="1150" />
-              <mxPoint x="188" y="1150" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BcTTe2isr_v5FpjEPVmH-52" value="tolower(x)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -447,10 +444,7 @@
         <mxCell id="BcTTe2isr_v5FpjEPVmH-53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-52">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="335" y="1180" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="335" y="1140" />
-              <mxPoint x="335" y="1140" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BcTTe2isr_v5FpjEPVmH-54" value="printf(&quot;%c&quot;, x);" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
@@ -465,6 +459,136 @@
               <mxPoint x="490" y="1110" />
               <mxPoint x="490" y="850" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-59" value="string alphabet = &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1180" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="BcTTe2isr_v5FpjEPVmH-59" parent="1" target="BcTTe2isr_v5FpjEPVmH-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1260" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-61" value="j++" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="353" y="1230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-62" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="BcTTe2isr_v5FpjEPVmH-61" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-63" value="j &amp;lt; strlen(alphabet)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="182" y="1250" width="176" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-64" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-63" target="BcTTe2isr_v5FpjEPVmH-26">
+          <mxGeometry x="-0.9845" relative="1" as="geometry">
+            <mxPoint x="130" y="1350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="1290" />
+              <mxPoint x="110" y="1640" />
+              <mxPoint x="600" y="1640" />
+              <mxPoint x="600" y="1210" />
+              <mxPoint x="530" y="1210" />
+              <mxPoint x="530" y="800" />
+              <mxPoint x="335" y="800" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-65" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-63">
+          <mxGeometry x="-1" y="20" relative="1" as="geometry">
+            <mxPoint x="390" y="1330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="1290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-67" value="isupper(c)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1330" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-68" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-67">
+          <mxGeometry x="-0.7565" relative="1" as="geometry">
+            <mxPoint x="270" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="1355" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-69" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-67">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="480" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-77" value="c == tolower(alphabet[i])" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1400" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-78" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-77" target="BcTTe2isr_v5FpjEPVmH-61">
+          <mxGeometry x="-0.9834" relative="1" as="geometry">
+            <mxPoint x="150" y="1470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="1425" />
+              <mxPoint x="150" y="1620" />
+              <mxPoint x="580" y="1620" />
+              <mxPoint x="580" y="1245" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-79" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-77" target="BcTTe2isr_v5FpjEPVmH-86">
+          <mxGeometry x="-1" y="27" relative="1" as="geometry">
+            <mxPoint x="360" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="1425" />
+              <mxPoint x="370" y="1470" />
+              <mxPoint x="313" y="1470" />
+            </Array>
+            <mxPoint x="-10" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-80" value="c == toupper(alphabet[i])" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1400" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-81" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-80">
+          <mxGeometry x="-0.907" relative="1" as="geometry">
+            <mxPoint x="380" y="1620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="1425" />
+              <mxPoint x="380" y="1470" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-82" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-80" target="BcTTe2isr_v5FpjEPVmH-83">
+          <mxGeometry x="-1" y="29" relative="1" as="geometry">
+            <mxPoint x="570" y="1470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="1425" />
+              <mxPoint x="570" y="1460" />
+              <mxPoint x="504" y="1460" />
+            </Array>
+            <mxPoint x="-14" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-83" value="printf(&quot;%c&quot;, toupper(key[i]));" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-84" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="BcTTe2isr_v5FpjEPVmH-83" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-86" value="printf(&quot;%c&quot;, tolower(key[i]));" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="253" y="1500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BcTTe2isr_v5FpjEPVmH-87" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" parent="1" source="BcTTe2isr_v5FpjEPVmH-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
